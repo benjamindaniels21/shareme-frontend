@@ -5,7 +5,10 @@ import {GoogleOauthProvider} from "@react-oauth/google";
 
 const Login = () => {
   return (
-    <GoogleOauthProvider clientId={process.env.NEXT_PUBLIC_GOOGLE_API_TOKEN}>Login</GoogleOauthProvider>
+    // <GoogleOauthProvider clientId={process.env.NEXT_PUBLIC_GOOGLE_API_TOKEN}>Login</GoogleOauthProvider>
+    <div>
+      hello
+    </div>
   )
 }
 
